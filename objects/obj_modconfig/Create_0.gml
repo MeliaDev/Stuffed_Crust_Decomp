@@ -1,0 +1,16 @@
+options_array[0] = ["VISUAL", "c", 0]
+options_array[1] = ["Panic BG", "panicbg", 0]
+options_array[2] = ["Panic Tilt", "panictilt", 0]
+options_array[3] = ["Tribe Cheese Censor", "tribecheesecensor", 0]
+options_array[4] = ["Mr Pinch Censor", "mrpinchcensor", 0]
+options_array[5] = ["After Image Colors", "blueeffects", 1, 4]
+options_array[6] = ["Smooth Camera", "smoothcamera", 0]
+options_desc = ["", "It's that red wavy stuff that\n gets all over the background", "Now you're REALLY in the Leaning Tower of Pizza", "I mean, if you don't want\n the funny dancing aliens, that's on you", "Which bald rich guy do you wanna\n get pinched by?", "Choose your favorite flavor of Specil Sause", "Sweet, Sugary and Smooth"]
+thirds = ["m", "m", "m", "m", "m", ["Original", "Nacho Cheese", "Cool Ranch", "Flamin Hot Red", "Cotton Candy"], "m"]
+options_array2 = ["", ["On", "Off"], ["On", "Off"], ["On", "Off"], ["On", "Off"], ["On", "Off"], ["On", "Off"]]
+selected = 1
+scroll = 0
+scroll2 = 0
+bginde = irandom_range(0, 7)
+bx = 0
+by = 0

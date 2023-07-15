@@ -1,0 +1,9 @@
+image_speed = 0
+press = 0
+drop = 1
+grav = 0.5
+hsp = 0
+vsp = 0
+closed = 0
+pressamt = irandom_range(3, 9)
+hurtsnd = 0

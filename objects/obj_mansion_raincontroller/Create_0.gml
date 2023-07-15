@@ -1,0 +1,10 @@
+showrain = 0
+override = 0
+image_speed = 0.2
+depth = (obj_tv.depth + 10)
+yedit = 0
+xedit = 0
+realy = 600
+realymod = 0
+godown = 0
+fireanim = 0

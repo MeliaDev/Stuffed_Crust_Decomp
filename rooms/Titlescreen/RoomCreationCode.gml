@@ -1,0 +1,16 @@
+pal_swap_init_system(8)
+ini_open_from_string(obj_savesystem.ini_str)
+global.roommessage = "WELCOME TO THE PIZZA TOWER"
+global.gameframe_caption_text = "Hesitating Right Outside the Pizza Tower"
+global.panicbg = ini_read_real("PanicBG", "IsOn", 0)
+global.panictilt = ini_read_real("PanicTilt", "IsOn", 0)
+global.heatmeter = ini_read_real("HeatMeter", "IsOn", 0)
+global.hardmode = ini_read_real("HardMode", "IsActive", 0)
+global.blueeffects = ini_read_real("AfterImage", "Type", 0)
+global.shootkeyattack = ini_read_real("SpecialMove", "Type", 0)
+obj_player1.paletteselect = ini_read_real("Game", "palette", 1)
+var _texture = ini_read_string("Game", "palettetexture", "none")
+global.palettetexture = scr_get_texture_palette(_texture)
+ini_close()
+with (obj_music)
+    add_music(room, "event:/sfx/misc/windloop", -4, 0)

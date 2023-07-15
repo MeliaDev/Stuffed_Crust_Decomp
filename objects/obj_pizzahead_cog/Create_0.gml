@@ -1,0 +1,16 @@
+image_speed = 0
+depth = -1
+fmod_event_one_shot_3d("event:/sfx/enemies/projectile", x, y)
+snd = fmod_event_create_instance("event:/sfx/pizzahead/cog")
+hsp = 0
+vsp = 0
+hsp_carry = 0
+vsp_carry = 0
+grav = 0.5
+platformid = -4
+grounded = 0
+landed = 0
+alarm[0] = 10
+bullethit = 3
+flash = 0
+flashbuffer = 0

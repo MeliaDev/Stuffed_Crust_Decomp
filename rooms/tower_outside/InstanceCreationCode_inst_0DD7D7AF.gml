@@ -1,0 +1,2 @@
+targetRoom = Titlescreen
+targetDoor = "C"

@@ -1,0 +1,11 @@
+image_speed = 0.35
+visited = 0
+depth = (obj_player1.depth + 10)
+targetDoor = "A"
+group_arr = -4
+offload_arr = -4
+locked = 0
+john = 0
+alarm[0] = 1
+uparrowID = scr_create_uparrowhitbox()
+doored = 0

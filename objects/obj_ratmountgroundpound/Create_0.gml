@@ -1,0 +1,13 @@
+vsp = 0
+hsp = 0
+grounded = 0
+grav = 0
+platformid = -4
+hsp_carry = 0
+vsp_carry = 0
+image_speed = 0
+alarm[0] = 5
+alarm[1] = 180
+kicked = 0
+hitbox = 0
+fmod_event_one_shot_3d("event:/sfx/enemies/killingblow", x, y)

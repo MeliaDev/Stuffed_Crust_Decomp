@@ -1,0 +1,9 @@
+achievement = "entrance1"
+index = 0
+text = ""
+secretplus = 3
+alpha = 0
+collision = 0
+image_speed = 0
+hidden = 0
+depth = 100

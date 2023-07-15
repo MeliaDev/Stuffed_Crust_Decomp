@@ -1,0 +1,14 @@
+hsp = 0
+vsp = -20
+hsp_carry = 0
+vsp_carry = 0
+platformid = -4
+grounded = 0
+grav = 0.5
+collision = 0
+alarm[0] = 1
+image_speed = 0.35
+image_xscale = choose(-1, 1)
+usepalette = 0
+paletteselect = 0
+spr_palette = palette_ninja

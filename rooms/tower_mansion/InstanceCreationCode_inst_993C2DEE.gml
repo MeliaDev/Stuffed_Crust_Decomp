@@ -1,0 +1,10 @@
+targetRoom = mansion_plain
+level = "mansion"
+sprite_index = spr_gate_mansion
+bgsprite = spr_gate_plainsBG
+title_index = 0
+title_sprite = spr_titlecards_title_bonus
+titlecard_sprite = spr_titlecards_bonus
+titlecard_index = 0
+title_music = "event:/stuffed/music/level/mansion/mansiontitle"
+depth = 50
